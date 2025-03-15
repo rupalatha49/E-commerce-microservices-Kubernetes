@@ -28,6 +28,6 @@ services:
     depends_on:
       - mysql
     build:
-      context: .
+      context: /root/E-commerce-microservices-Kubernetes/docker/setup
       args:
         PROJECT_VERSION: 0.0.1
